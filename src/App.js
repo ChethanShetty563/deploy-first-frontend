@@ -48,7 +48,7 @@ function App() {
       <div>
         <input
           type="text"
-          placeholder="Name..."
+          placeholder="Name"
           onChange={(event) => {
             setName(event.target.value);
           }}
